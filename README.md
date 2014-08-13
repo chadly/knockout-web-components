@@ -1,11 +1,11 @@
 Knockout with Web Components
 ==================
 
-A small hello-world application that shows how [knockout.js](http://knockoutjs.com/) can be used inside of web components.
+A small hello-world application that shows how [knockout.js](http://knockoutjs.com/) can be used inside of [web components](http://webcomponents.org/).
 
 ##Why?
 
-It's hard to share code between different MVVM implementations. It would be nice to be able to use web components as the "glue" between different MVVM implementations. Imagine using [knockout](http://knockoutjs.com/) components together with [react](http://facebook.github.io/react/) components. It works as long as each component is encapsulated and speaks the same "language", e.g. web components.
+It's hard to share code between different MVVM implementations. It would be nice to be able to use web components as the "glue" between different MVVM implementations. Imagine using [knockout](http://knockoutjs.com/) components together with [react](http://facebook.github.io/react/) components. It works as long as each component is encapsulated and speaks the same "language", e.g. [web components](http://webcomponents.org/).
 
 This is an attempt to get knockout.js working inside of a pure, native web component -- no polyfills.
 
