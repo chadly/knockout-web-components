@@ -1,0 +1,14 @@
+<!-- HTML -->
+<template id="template">
+	<div id="ko-app">
+		Hello:
+		<strong data-bind="text: hello" class="text-"></strong>
+
+		<p>
+			<input type="text" data-bind="value: hello, valueUpdate: 'input'" />
+		</p>
+	</div>
+</template>
+
+<script src="http://ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.1.debug.js"></script>
+<script src="main.js"></script>
